@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+    Meu perfil 
+</title>
+</head>
+<body>
+<?php
+     $var1 = array (
+         'imagem' => 'https://cdn.iconscout.com/icon/free/png-256/avatar-370-456322.png',
+         'nome' => 'leonardo',
+         'apelido' => 'léo',
+         'email' => 'leonardosantana@gmail.com',
+         'curso' => 'informática',
+        'disciplina' => 'programação de sistema web',
+         'rua' => 'rua dos eucaliptos',
+         'bairro' => 'bairro água verde',
+         'cidade' => 'salvador'
+
+     );
+    echo ("Perfil do usuário <br>");
+    echo ('<img src =' . $var1 ['imagem']. '> <br>' );
+    echo ('Nome:'. $var1 ['nome']. '<br> Apelido: '. $var1['apelido']. '<br> E-mail: '. $var1['email']. '<br> Curso: '.  $var1['curso']. '<br> Disciplina: '. $var1['disciplina']. '<br> Rua: '. $var1['rua']. '<br> Bairro: '. $var1['bairro']. '<br> Cidade: '. $var1['cidade']); 
+?>
+</body>
+</html>
